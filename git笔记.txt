@@ -1,0 +1,22 @@
+1 github上创建一个空的respository
+2 本地项目文件下打开git bash执行git init
+    多出一个.git文件夹，这个文件夹默认是隐藏的，不要动它，不要动它，不要动它
+
+3  全局配置用户名和邮箱
+     git config --global user.name '你的用户名'
+     git config --global user.email  '你的邮箱'
+
+4 git add .    把所有文件全部添加到暂存区（git add -A）
+
+5 git commit -m "这一次提交做了什么事"
+
+6   git remote add origin 项目的线上地址      
+      把本地仓库跟线上关联
+      只有在第一次push之前要执行的步骤，否则就跳过第六步，直接执行第七步
+
+7 git push origin master  把本地的代码推送到线上。需要输入用户名和密码
+
+
+附加： 
+ git clone 线上地址   
+   把线上的项目克隆到本地
